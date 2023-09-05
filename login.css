@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Libre+Baskerville&family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Libre+Baskerville&family=Noto+Serif&family=Roboto+Condensed&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color:  rgb(209, 236, 173);
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    
+
+}
+header ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+.left{
+    font-size: 1.5em;
+}
+.right{
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+.sidebar{
+    font-family: 'Libre Baskerville', serif;
+    background-color:rgb(209, 236, 173);
+    
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 11px;
+    
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 33px;
+    font-size: 25px;
+
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+.main{
+    font-family: 'Arimo', sans-serif;
+    /*background-color: yellow;*/
+    width: 90vw;
+}
+.container{
+    display:flex;
+}
+.brown{
+    color: rgb(25, 42, 93);
+}
+
+.contactform{
+    padding:144px 34px;
+    font-family: 'Arimo', sans-serif;
+    margin: 0 88px ;
+
+}
+.contactform h1{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 12px;
+    color:red;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width:28px;
+    margin: 3px 0;
+}
+
+.btn{
+    margin-top: 32px;
+}
+.btn {
+    padding: 9px 14px ;
+    border-radius:22px ;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: dodgerblue;
+    background-color: white;
+
+}
+
+.sidebargo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute ;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+    
+}
+.cross{
+    margin-left: 185px;
+    margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+.contactform{
+    margin: 8px;
+}
+.footer-second{
+    display: none;
+}
+.left{
+    display: none;
+}
+.right{
+    display: none;
+}
+
+}
+
+
+
+
+
+footer{
+    background-color: rgb(209, 236, 173);
+    
+}
+.footer{
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-around;
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 123px;
+}
+footer .footer-rights{
+    text-align: center;
+    color: rgb(71, 71, 71);
+    padding: 12px 0;
+    font-weight: bold;
+}
+.footer-first{
+    font-size: 1.2em;
+}

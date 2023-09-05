@@ -1,0 +1,18 @@
+.About-us {
+    text-align: center;
+    background-color: #ccc;
+    height: 1000px;
+  
+  }
+  h1{
+    color: rgb(25, 42, 93);
+    font-size: 30px;
+  }
+  img {
+    border-radius: 10%;
+    size-adjust: 30 px;
+  }
+  
+  p {
+    font-size: 30px;
+  } 

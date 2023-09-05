@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Libre+Baskerville&family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Libre+Baskerville&family=Noto+Serif&family=Roboto+Condensed&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+
+header nav{
+    
+    About-us {
+        text-align: center;
+        background-color: #ccc;
+        height: 1000px;
+      
+      }
+      h1{
+        color: rgb(25, 42, 93);
+        font-size: 30px;
+      }
+      img {
+        border-radius: 10%;
+        size-adjust: 30 px;
+      }
+      
+      p {
+        font-size: 30px;
+      } 
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+header ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+.left{
+    font-size: 1.5em;
+}
+.right{
+    font-size: 1.2em;
+    
+}
+header .right{
+    font-style: none;
+}
+
+
+
+
+
+.sidebar{
+    position: absolute;
+    font-family: 'Libre Baskerville', serif;
+    background-color:rgb(209, 236, 173);
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 11px;
+    
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 33px;
+    font-size: 25px;
+
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+
+.main{
+    font-family: 'Arimo', sans-serif;
+    /*background-color: yellow;*/
+    width: 90vw;
+    
+}
+.container{
+    display:flex;
+}
+.infocontainer{
+    /*background-color: brown;*/
+    height: 58vh;
+    width:80vw;
+    margin:100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+/*typed js settings */
+#element{
+    font-size: 2.5em;
+    font-family: 'Arimo', sans-serif;
+    color: blueviolet;
+}
+.devinfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.purple{
+    color: blueviolet;
+}
+.hello{
+    font-size: 3em;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+.name{
+    font-size: 3em;
+    font-family: 'Libre Baskerville', serif;
+}
+.about{
+    font-size: 2.5em;
+    font-family: 'Arimo', sans-serif;
+
+}
+.moreabout{
+    margin-top: 2.2em;
+    font-size: 20px;
+}
+.buttons{
+    margin-top: 32px;
+}
+.buttons button{
+    padding: 9px 14px ;
+    border-radius:22px ;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    color: dodgerblue;
+    background-color: white;
+
+}
+.devpic img{
+    
+    height: 58vh;
+}
+.sidebargo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+
+
+@media (max-width: 1350px) {
+/* *{
+  background-color: rgb(230, 101, 101);
+} */
+.devpic{
+    display: none;
+}
+.devinfo{
+    font-size: 13px;
+}
+.footer-second{
+    display: none;
+}
+.left{
+    display: none;
+}
+.right{
+    display: none;
+    
+}
+
+/*.sidebar{
+    transform: translate(-443px,0px);
+    position: absolute;
+} */
+}
+
+
+
+footer{
+    background-color: rgb(90, 92, 100);
+    
+}
+.footer{
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-around;
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 123px;
+}
+footer .footer-rights{
+    text-align: center;
+    color: rgb(90, 92, 100);
+    padding: 12px 0;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.footer-first{
+    font-size: 1.2em;
+}
+.footer-second{
+    font-size:1.2em;
+    
+}
