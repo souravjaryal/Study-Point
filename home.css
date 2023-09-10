@@ -164,12 +164,11 @@
     
 }
 .coder video{
-    padding-left: 40%;
-    max-width: 50%;
+    padding-left: 36%;
     align-items: center;
     justify-content: center;
-    border: 2px solid white;
-    margin-top: 12px;
+    border: 12x solid white;
+    margin-top: 50px;
     display: block;
     background-color:solid white;
 
@@ -209,7 +208,8 @@
 
 .contact{
     background-color:rgb(248, 248, 248);
-    height: 833px;
+    height: auto;
+    padding-bottom: 20px;
 }
 
 .text-center{
@@ -236,7 +236,7 @@
 
 .text-footer{
     text-align: center;
-    padding: 30px 0;
+    padding: 30px;
     font-family: 'Ubuntu', sans-serif;
     display: flex;
     justify-content: center;

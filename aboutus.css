@@ -16,3 +16,32 @@
   p {
     font-size: 30px;
   } 
+  footer{
+    background-color: rgb(90, 92, 100);
+    
+}
+.footer{
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-around;
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 123px;
+}
+footer .footer-rights{
+    text-align: center;
+    color: rgb(90, 92, 100);
+    padding: 12px 0;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.footer-first{
+    font-size: 1.2em;
+}
+.footer-second{
+    font-size:1.2em;
+    
+}
